@@ -232,7 +232,7 @@ export default function Game() {
   return (
     <div>
       <Head>
-        <title>나와 맞는 레븐 멤버는?</title>
+        <title>나와 가장 잘 맞는 레븐 멤버는?</title>
         <meta name="description" content="Leaven Minigame Season 1" />
         <link rel="icon" href="https://multi.leaven.team/leaven.png" />
       </Head>

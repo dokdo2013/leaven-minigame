@@ -3,7 +3,8 @@ import { useState, useEffect } from "react";
 import Router from "next/router";
 
 export default function Game() {
-  const defaultClass = "text-2xl my-2 mx-auto block btn btn-block max-w-xl";
+  const defaultClass =
+    "text-2xl my-2 mx-auto block btn btn-block max-w-xl h-20";
   let [q, setQ] = useState("0");
   useEffect(() => {
     setQ(localStorage.getItem("q4"));
@@ -18,7 +19,7 @@ export default function Game() {
   return (
     <div>
       <Head>
-        <title>나와 맞는 레븐 멤버는?</title>
+        <title>나와 가장 잘 맞는 레븐 멤버는?</title>
         <meta name="description" content="Leaven Minigame Season 1" />
         <link rel="icon" href="https://multi.leaven.team/leaven.png" />
       </Head>

@@ -11,7 +11,7 @@ export default function Member() {
   return (
     <div>
       <Head>
-        <title>김병살 - 나와 맞는 레븐 멤버는?</title>
+        <title>김병살 - 나와 가장 잘 맞는 레븐 멤버는?</title>
         <meta name="description" content="Leaven Minigame Season 1" />
         <link rel="icon" href="https://multi.leaven.team/leaven.png" />
       </Head>
@@ -19,12 +19,15 @@ export default function Member() {
       <main>
         <ToastContainer className="text-2xl font-bold" />
         <div className="text-center my-10">
-          <p className="text-2xl mb-5">나와 가장 잘 맞는 레븐 멤버는?</p>
+          <p className="text-2xl mb-5 font-bold">
+            나와 가장 잘 맞는 레븐 멤버는?
+          </p>
           <div className="avatar">
-            <div className="w-40 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+            <div className="w-40 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2 custom-image">
               <Image
                 src="https://imagedelivery.net/lR-z0ff8FVe1ydEi9nc-5Q/d11a101a-2e68-4d58-969b-804d05542600/500x500"
                 alt="김병살"
+                layout="fill"
               />
             </div>
           </div>

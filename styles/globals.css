@@ -10,5 +10,17 @@
 }
 
 html, body, .Toastify__toast-body {
-  font-family: 'Unilab' !important
+  font-family: 'Unilab' !important;
+}
+
+main {
+  padding: 10px;
+}
+
+.custom-image span {
+  position: static !important;
+}
+.custom-image span img {
+  position: static !important;
+  height: 100% !important;
 }

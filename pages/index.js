@@ -16,18 +16,18 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>나와 맞는 레븐 멤버는?</title>
+        <title>나와 가장 잘 맞는 레븐 멤버는?</title>
         <meta name="description" content="Leaven Minigame Season 1" />
         <link rel="icon" href="https://multi.leaven.team/leaven.png" />
       </Head>
 
-      <main>
+      <main className="p-0">
         <div className="hero min-h-screen bg-base-200">
           <div className="hero-content text-center">
             <div className="max-w-md">
               <p className="text-3xl">LEAVEN MINIGAME</p>
               <h1 className="text-6xl font-bold mb-6">
-                나와 맞는 레븐 멤버는?
+                나와 가장 잘 맞는 레븐 멤버는?
               </h1>
               <button className="btn btn-primary text-2xl" onClick={init}>
                 시작하기
