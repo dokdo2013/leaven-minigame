@@ -24,7 +24,7 @@ export default function Home() {
       <main className="p-0">
         <div className="hero min-h-screen bg-base-200">
           <div className="hero-content text-center">
-            <div className="max-w-md">
+            <div className="max-w-lg">
               <p className="text-3xl">LEAVEN MINIGAME</p>
               <h1 className="text-6xl font-bold mb-6">
                 나와 가장 잘 맞는 레븐 멤버는?
