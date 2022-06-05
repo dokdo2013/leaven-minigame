@@ -37,7 +37,8 @@ export default function Game() {
 
         <div className="text-center mt-10">
           <p className="text-4xl font-bold">
-            다같이 바닷가에 놀러갔는데 가려고 했던 횟집이 있는지 찾아본다.
+            다같이 바닷가에 놀러갔는데 가려고 했던 횟집이 문을 닫았다. 이 때
+            내가 할 행동은?
           </p>
           <div className="mt-12">
             <button
