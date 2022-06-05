@@ -1,4 +1,4 @@
-# 나와 맞는 레븐 멤버는? (레븐 미니게임)
+# 나와 가장 잘 맞는 레븐 멤버는? (레븐 미니게임)
 5개의 질문을 통해 나와 가장 잘 맞는 레븐 멤버를 찾아보는 간단한 미니게임
 
 [https://leaven-minigame.vercel.app](https://leaven-minigame.vercel.app)
