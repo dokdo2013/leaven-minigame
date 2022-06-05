@@ -6,7 +6,7 @@ import { ToastContainer, toast } from "react-toastify";
 
 export default function Member() {
   const message =
-    "나와 가장 잘 맞는 레븐 멤버는 '포도당'이에요. 같이 플레이해볼래요? https://minigame.leaven.team";
+    "나와 가장 잘 맞는 레븐 멤버는 '포도당'이에요. 같이 플레이해볼래요? https://leaven-minigame.vercel.app";
 
   return (
     <div>
