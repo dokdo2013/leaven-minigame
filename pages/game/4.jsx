@@ -36,8 +36,8 @@ export default function Game() {
 
         <div className="text-center mt-10">
           <p className="text-4xl font-bold">
-            친구가 귓속말로 "야 ㅋㅋ 저기 니 남친 지나간다 ㅋㅋ"라고 놀렸는데
-            마침 진짜 남자친구였을 때 내가 할 행동은?
+            친구가 귓속말로 &quot;야 ㅋㅋ 저기 니 남친 지나간다 ㅋㅋ&quot;라고
+            놀렸는데 마침 진짜 남자친구였을 때 내가 할 행동은?
           </p>
           <div className="mt-12">
             <button
@@ -68,7 +68,7 @@ export default function Game() {
                 save("3");
               }}
             >
-              정색하면서 "남자친구 맞는데? 왜?" 라고 한다.
+              정색하면서 &quot;남자친구 맞는데? 왜?&quot; 라고 한다.
             </button>
           </div>
         </div>

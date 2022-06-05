@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Router from "next/router";
+import Image from "next/image";
 import { CopyToClipboard } from "react-copy-to-clipboard";
 import { ToastContainer, toast } from "react-toastify";
 
@@ -21,7 +22,10 @@ export default function Member() {
           <p className="text-2xl mb-5">나와 가장 잘 맞는 레븐 멤버는?</p>
           <div className="avatar">
             <div className="w-40 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
-              <img src="https://imagedelivery.net/lR-z0ff8FVe1ydEi9nc-5Q/fa524576-4978-4d27-ac41-f619090f4500/500x500" />
+              <Image
+                src="https://imagedelivery.net/lR-z0ff8FVe1ydEi9nc-5Q/fa524576-4978-4d27-ac41-f619090f4500/500x500"
+                alt="포도당"
+              />
             </div>
           </div>
           <p className="text-5xl font-bold">포도당</p>

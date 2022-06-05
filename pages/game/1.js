@@ -46,7 +46,7 @@ export default function Game() {
                 save("1");
               }}
             >
-              크게 "사장님!!" 소리를 질러 점원을 부른다.
+              크게 &quot;사장님!!&quot; 소리를 질러 점원을 부른다.
             </button>
             <button
               className={
@@ -66,7 +66,7 @@ export default function Game() {
                 save("3");
               }}
             >
-              '친구가 불러주겠지'하고 기다린다.
+              &apos;친구가 불러주겠지&apos;하고 기다린다.
             </button>
           </div>
         </div>

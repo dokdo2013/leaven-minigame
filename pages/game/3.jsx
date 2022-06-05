@@ -47,7 +47,7 @@ export default function Game() {
                 save("1");
               }}
             >
-              '내가 이기나 너가 이기나 보자'하면서 이길 때까지 한다.
+              &apos;내가 이기나 너가 이기나 보자&apos;하면서 이길 때까지 한다.
             </button>
             <button
               className={
