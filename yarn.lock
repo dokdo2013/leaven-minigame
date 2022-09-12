@@ -1283,10 +1283,10 @@ cssesc@^3.0.0:
   resolved "https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz"
   integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
 
-daisyui@2.25.0:
-  version "2.25.0"
-  resolved "https://registry.npmjs.org/daisyui/-/daisyui-2.25.0.tgz"
-  integrity sha512-tv2sFHMOCEr+3A2JOFMaFjV6O/tkXYrytCSptXU8GRS7FDCR0pUmHA/o6K+3nydor7rQ06gMyVbCDHE9WdMW0Q==
+daisyui@2.27.0:
+  version "2.27.0"
+  resolved "https://registry.npmjs.org/daisyui/-/daisyui-2.27.0.tgz"
+  integrity sha512-AhFGhTore1Kdnae+5RGc2PGESSXOjAQDHJfvryP+KY41gxMcNErtuaGZG+nOmvOzNKgxViSDSaOn/VZq6H8kxA==
   dependencies:
     color "^4.2"
     css-selector-tokenizer "^0.8.0"
