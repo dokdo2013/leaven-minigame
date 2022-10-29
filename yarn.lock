@@ -702,10 +702,10 @@ cssesc@^3.0.0:
   resolved "https://registry.npmjs.org/cssesc/-/cssesc-3.0.0.tgz"
   integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
 
-daisyui@2.33.0:
-  version "2.33.0"
-  resolved "https://registry.npmjs.org/daisyui/-/daisyui-2.33.0.tgz"
-  integrity sha512-NviwGs9oC9NW7IEZiLexHtxkpzP38AKxb9GTUCqUa0qoU8NHKQGqJUzQWZwWSZakU57KsQLblFVe0xMhqw4TlA==
+daisyui@2.36.1:
+  version "2.36.1"
+  resolved "https://registry.npmjs.org/daisyui/-/daisyui-2.36.1.tgz"
+  integrity sha512-l43iibOsfYAYfRMIsCfobSk4ygV2/OiQMX98zLFrafWt5zoSed7I4b4tRlKeP6xhnfVe6Xkv/84nFfapHI0B2A==
   dependencies:
     color "^4.2"
     css-selector-tokenizer "^0.8.0"
