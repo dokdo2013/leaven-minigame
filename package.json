@@ -11,7 +11,7 @@
   "dependencies": {
     "@sentry/nextjs": "7.19.0",
     "autoprefixer": "10.4.13",
-    "daisyui": "2.39.1",
+    "daisyui": "2.40.1",
     "next": "12.3.3",
     "postcss": "8.4.19",
     "react": "18.2.0",
