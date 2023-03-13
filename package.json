@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@sentry/nextjs": "7.42.0",
+    "@sentry/nextjs": "7.43.0",
     "autoprefixer": "10.4.14",
     "daisyui": "2.51.3",
     "next": "13.2.4",
