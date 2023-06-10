@@ -7,6 +7,7 @@ const { withSentryConfig } = require("@sentry/nextjs");
 
 const nextConfig = {
   reactStrictMode: true,
+  output: 'standalone',
   images: {
     domains: ["imagedelivery.net"],
   },
