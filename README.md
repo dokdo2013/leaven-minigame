@@ -1,7 +1,7 @@
 # 나와 가장 잘 맞는 레븐 멤버는? (레븐 미니게임)
 5개의 질문을 통해 나와 가장 잘 맞는 레븐 멤버를 찾아보는 간단한 미니게임
 
-[https://leaven-minigame.vercel.app](https://leaven-minigame.vercel.app)
+[https://minigame.leaven.team](https://minigame.leaven.team)
 
 ## 제작동기 및 제작과정
 간단한 설문형 게임이나 유사 mbti 검사들이 netlify 등으로 배포되어 많은 호응을 얻고 있는 것에 착안해, 간단하게 질문형 미니게임을 만들어보고자 계획하였다. 기술적으로는 이전에 사용해본 적이 없던 Next.js와 Vercel을 통한 배포과정, 그리고 Tailwind CSS 기반의 Daisy UI를 적용하였다.
