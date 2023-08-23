@@ -28,6 +28,7 @@ export default function Game() {
     // 계산
     if (q1 === "1") {
       adri++;
+      harry++;
       podo++;
       bead++;
       kbs--;
@@ -44,6 +45,7 @@ export default function Game() {
 
     if (q2 === "1") {
       adri++;
+      harry++;
       jeeya++;
       yudar++;
       bead--;
@@ -66,12 +68,14 @@ export default function Game() {
       podo++;
       guna++;
       adri--;
+      harry--;
       jeeya--;
       yudar--;
     }
 
     if (q3 === "1") {
       gabi++;
+      harry++;
       adri++;
       kbs--;
       yudar--;
@@ -79,6 +83,7 @@ export default function Game() {
       kbs++;
       yudar++;
       gabi--;
+      harry--;
     } else if (q3 === "3") {
       jeeya++;
       bead++;
@@ -90,6 +95,7 @@ export default function Game() {
     if (q4 === "1") {
       bead++;
       doran++;
+      harry++;
       podo++;
       kbs++;
       guna++;
@@ -100,6 +106,7 @@ export default function Game() {
       jeeya++;
       yudar++;
       gabi++;
+      harry++;
       doran++;
       bead--;
       podo--;
@@ -110,12 +117,15 @@ export default function Game() {
       yudar++;
       gabi++;
       doran--;
+      harry--;
       guna--;
     }
 
     if (q5 === "1") {
       yudar++;
       yudar++;
+      harry++;
+      harry++;
       podo++;
       bead++;
       doran++;
@@ -135,6 +145,7 @@ export default function Game() {
       kbs++;
       jeeya--;
       yudar--;
+      harry--;
     } else if (q5 === "3") {
       gabi++;
       jeeya++;
@@ -146,9 +157,12 @@ export default function Game() {
       guna--;
       yudar--;
       yudar--;
+      harry--;
+      harry--;
     } else if (q5 === "4") {
       jeeya++;
       yudar--;
+      harry--;
       podo--;
       bead--;
       doran--;
@@ -192,6 +206,9 @@ export default function Game() {
     } else if (yudar === max) {
       count++;
       maxMember.push("yudarlinn");
+    } else if (harry === max) {
+      count++;
+      maxMember.push("junharry");
     } else if (jeeya === max) {
       count++;
       maxMember.push("jeeya");
